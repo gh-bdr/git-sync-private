@@ -30,7 +30,7 @@ spec:
         - name: GIT_SYNC_USERNAME
           value: "gh-bdr"
         - name: GIT_SYNC_PASSWORD
-          value: "cf15807e57707bfe9eb16adc767061466af8394c"
+          value: ""    #access token for github
       - name: nginx-private
         image: nginx
         ports:
